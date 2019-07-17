@@ -32,7 +32,16 @@
          color: white;
        }
        
-       /* Content Page Details */
+ /* Content Page Details */
+ div.content {
+  margin-left: 230px;
+   padding: 1px 16px;
+   height: 1000px;
+}
+
+
+
+
        
        
        
