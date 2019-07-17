@@ -1,1 +1,38 @@
-
+  <style>
+ 
+  /* Navigation Sidebar */
+    .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    posistion: fixed;
+    height: 100%;
+    overflow: auto;
+}
+       
+       /* Links for sidebar */
+       .sidebar a {
+         display: block;
+         color: red;
+         padding: 16px;
+         text-decoration: none;
+       }
+       
+       /* Active current link */
+       sidebar a.active {
+         background-color: #4CAF50
+           color: white;
+       }
+       
+       /* Mouse over Links */
+       .sidebar a.hover:not (.active) {
+         background-color: #555;
+         color: white;
+       }
+       
+       /* Content Page Details */
+       
+       
+       
+     </style>
