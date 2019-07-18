@@ -60,5 +60,11 @@ body {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+<style>
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+}
+</style>
 </style>
 </head>
