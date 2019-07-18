@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!--Links-->
+
 <html>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
@@ -17,10 +19,10 @@
   <body>
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Projects</a>
-  <a href="#">Contact</a>
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Projects">Projects</a>
+  <a href="#Contact">Contact</a>
 </div>
     
 <!--Buttons-->
@@ -53,6 +55,7 @@ function closeNav() {
 </body>
    
   <!--Title of page-->
+  
 <body>
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">  
   <div>
@@ -63,26 +66,25 @@ function closeNav() {
   
   <!--Scrolling-->
   
-  <style>
-.parallax {
-  /* The image used */
-  background-image: url("http://crossplatform.ca/wp-content/uploads/2016/10/pexels-photo.jpg");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-  
-  <div style="color: white;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
+<div id="page1">
+  <a id="About" class="smooth"></a>
+    <div style="color: white;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">Who am I?</h3>
   <p>Hey my name is Rohit, I'm 18 years old and currently studying at Chico State University. I enjoy biking, swimming, and programming. I also enjoy hanging out with friends and trying new things. I am currently working towards my degree in computer science.</p>
 </div>
+</div>
+
+<div id="page2">
+  <a id="Projects" class="smooth"></a>
+    Portfolio page content goes here.
+</div>
+
+<div id="page3">
+  <a id="Contact" class="smooth"></a>
+    Contact page content goes here.
+</div>
+  
+ 
   
 
 </html> 
